@@ -1,29 +1,38 @@
-![SuperTokens banner](https://raw.githubusercontent.com/supertokens/supertokens-logo/master/images/Artboard%20%E2%80%93%2027%402x.png)
+# create-svelte
 
-# SuperTokens Svelte Auth SDK
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-<a href="https://supertokens.io/discord">
-<img src="https://img.shields.io/discord/603466164219281420.svg?logo=discord"
-    alt="chat on Discord"></a>
-    
-## About
-Svelte SDK that provides login functionality with SuperTokens (for SvelteKit too!).
+## Creating a project
 
-Learn more at https://supertokens.io
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Documentation
+```bash
+# create a new project in the current directory
+npm init svelte
 
-To see documentation, please click [here](https://supertokens.io/docs/community/introduction).
+# create a new project in my-app
+npm init svelte my-app
+```
 
-## Contributing
+## Developing
 
-Please refer to the [CONTRIBUTING.md](https://github.com/supertokens/supertokens-auth-react/blob/master/CONTRIBUTING.md) file in this repo.
-`TODO: add CONTRIBUTING.md`
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Contact us
+```bash
+npm run dev
 
-For any queries, or support requests, please email us at team@supertokens.io, or join our [Discord](https://supertokens.io/discord) server.
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## Authors
+## Building
 
-Created with :heart: by the CuriousCI.
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
